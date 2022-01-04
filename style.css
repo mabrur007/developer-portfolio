@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 140px;
 }
@@ -15,8 +15,20 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.section-three{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0 65% ;
+}
+
+.section-three h1{
+font-size: 40px;
+}
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 35px;
 }
 .orange-color{
     color: orange;
@@ -38,11 +50,28 @@ h1{
     width: 50%;
     padding-left: 5%;
 }
-.half-width p{
+p{
     text-align: justify;
     color: #696969;
 }
 .half-width img{
     width: 80%;
     margin-top: 25px;
+}
+.experience-box{
+    margin: 0 4%;
+    width: 40%;
+    border-radius: 5px;
+    box-shadow: 5px 7px 40px gray;
+    padding: 20px 40px 80px;
+}
+#experience-box-left{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#experience-box-right{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
 }
