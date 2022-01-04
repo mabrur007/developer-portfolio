@@ -2,9 +2,18 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+section{
+    display: flex;
+    margin-bottom: 140px;
+}
 .section-one{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.section-two{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 h1{
     font-size: 50px;
@@ -20,9 +29,11 @@ h1{
     color: white;
     font-weight: 700;
 }
-section{
-    display: flex;
+
+.padding{
+    padding-right: 15%;
 }
+
 .half-width{
     width: 50%;
     padding-left: 5%;
